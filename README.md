@@ -68,7 +68,7 @@ componentDidMount() {
 
 ### componentWillReceiveProps
 
-`c.cwrp`
+`r.cwrp`
 
 ```javascript
 componentWillReceiveProps(nextProps, nextContext) {

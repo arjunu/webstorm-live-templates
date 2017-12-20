@@ -44,6 +44,10 @@ export default class ComponentName extends React.Component {
 ComponentName.propTypes = {
     
 };
+
+ComponentName.defaultProps = {
+    
+};
 ```
 
 ### Constructor

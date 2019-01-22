@@ -30,8 +30,7 @@ console.log($END$);
 import React from 'react';
 import classNames from 'classnames';
 
-import React, { Component } from 'react';
-import classNames from 'classnames';
+import styles from './$TM_FILENAME_BASE$.scss';
 
 class $TM_FILENAME_BASE$ extends Component {
   render() {

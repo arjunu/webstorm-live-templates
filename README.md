@@ -30,24 +30,24 @@ console.log($END$);
 import React from 'react';
 import classNames from 'classnames';
 
-export default class ComponentName extends React.Component {
+import React, { Component } from 'react';
+import classNames from 'classnames';
 
-    render() {
-
-        return (
-            <div>
-            </div>
-        );
-    }
+class $TM_FILENAME_BASE$ extends Component {
+  render() {
+    return <div>$END$</div>;
+  }
 }
 
-ComponentName.propTypes = {
+$TM_FILENAME_BASE$.propTypes = {
     
 };
 
-ComponentName.defaultProps = {
+$TM_FILENAME_BASE$.defaultProps = {
     
 };
+
+export default $TM_FILENAME_BASE$;
 ```
 
 ### Constructor
@@ -55,8 +55,8 @@ ComponentName.defaultProps = {
 `r.cons`
 
 ```javascript
-constructor(props, context){
-    super(props, context);
+constructor(props){
+    super(props);
 }
 ```
 
@@ -75,7 +75,7 @@ componentDidMount() {
 `r.cwrp`
 
 ```javascript
-componentWillReceiveProps(nextProps, nextContext) {
+componentWillReceiveProps(nextProps) {
   $END$
 }
 ```
@@ -98,7 +98,9 @@ import {fromJS} from 'immutable';
 
 ```javascript
 describe('$END$', () => {
+  test('', () => {
 
+  });  
 });
 ```
 

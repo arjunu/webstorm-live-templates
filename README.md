@@ -27,7 +27,7 @@ console.log($END$);
 `r.cls`
 
 ```javascript
-import React from 'react';
+import React, { Component } from 'react';
 import classNames from 'classnames';
 
 import styles from './$TM_FILENAME_BASE$.scss';
@@ -48,6 +48,8 @@ $TM_FILENAME_BASE$.defaultProps = {
 
 export default $TM_FILENAME_BASE$;
 ```
+
+$TM_FILENAME_BASE$ = `capitalize(camelCase(fileNameWithoutExtension()))`
 
 ### Constructor
 

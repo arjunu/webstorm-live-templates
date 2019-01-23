@@ -81,6 +81,24 @@ componentWillReceiveProps(nextProps) {
 }
 ```
 
+## Imports
+
+```javascript
+i.r
+import React, { Component } from 'react';
+
+i.cn
+import classNames from 'classnames';
+
+i.rdx
+import { connect } from 'react-redux';
+
+i.pt
+import PropTypes from 'prop-types';
+
+```
+
+
 ## Tests
 
 ### Test File Imports
